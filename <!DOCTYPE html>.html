@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wilds</title>
+    <style>
+
+        body {
+
+            background: linear-gradient(#3D5771, #8EA1B0) ;
+
+
+        }
+
+        h1 {
+
+            text-align: center;
+            color: white;
+
+        }
+
+        h2 {
+
+            text-align: center;
+            border: 1px solid white;
+            padding: 15px;
+            font-size: 18px;
+            border-radius: 4px;
+            color: white;
+            
+
+        }
+
+        img {
+
+            display: block;
+            margin: 0 auto;
+            max-width: 90%;
+            border-radius: 10px;
+
+        }
+
+        p {
+
+            color: white;
+            line-height: normal;
+
+        }
+
+        a {
+
+            color: white;
+            text-decoration: none;
+
+        }
+
+        button, .season2 {
+
+        display: block;
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 0 auto;
+        color: white;
+        border-radius: 40px;
+        background: #129ADE;
+        border: 2px solid #129ADE;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        transition: all 200ms ease-in-out;
+
+        }
+
+        button:hover {
+
+          background: white;
+          color: #129ADE;
+          cursor: pointer;
+
+        }
+
+        .title {
+            color: #BFDDF8;
+        }
+
+        .cast, .writer {
+
+            color: #BFDDF8;
+            font-weight: 400 ;
+
+        }
+
+        .learnMore {
+
+          text-align: center;
+          font-size: 14px;
+
+        }
+
+        .watchTW, .season2 {
+
+          padding: 0 auto;
+          margin: 0 auto;
+
+        }
+
+        .thisPage {
+
+          text-align: center;
+          margin: 30px 5px;
+          font-size: 14px;
+
+        }
+
+        .info {
+
+          text-align: center;
+          font-size: 14px;
+
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        Watch The Wilds
+    </h1>
+    <hr>
+    <h2>
+        on Amazon Prime
+    </h2>
+
+   <img src="https://news24viral.com/wp-content/uploads/2020/12/The-Wilds-on-Amazon-Prime-Video-What-Really-Happened-on.jpg" alt="The Wilds">
+
+    <p>
+       <span class="title"> 
+        <span class="writer">
+         <a href="https://www.imdb.com/title/tt8633062/?ref_=nm_knf_i1" target="_blank"> 
+        
+         <strong><em>The Wilds</em></strong> 
+            </a>   
+        </span>
+        
+        
+        is an American drama streaming television series created by 
+       
+       <span class="writer">
+        <a href="https://www.imdb.com/name/nm4927551/?ref_=ttfc_fc_wr1" target="_blank"> 
+        Sarah Streicher
+        </a>
+        </span> 
+        
+        for Amazon Prime Video.
+        The series centers around a group of teenage girls who are left stranded on a deserted island after a plane crash, but are unaware they
+        are the subjects of a social experiment. The ensemble cast features 
+        
+        <span class="cast">
+        <a href="https://www.imdb.com/title/tt8633062/fullcredits" target="_blank">  
+        Sophia Ali, Reign Edwards, Shannon Berry, Jenna Clause, Mia Healey, 
+        Helena Howard, Erana James, Sarah Pidgeon, David Sullivan, Troy Winbush, and Rachel Griffiths
+        </a>
+        </span>
+
+        . The first season was released on Amazon Prime Video on December 11, 2020 and received positive reviews from critics, with praise for 
+        the performances, writing, and plot. In December 2020, the series was renewed for a second season.
+    </span></p>
+
+    <div class="learnMore">
+          <a href="https://en.wikipedia.org/wiki/The_Wilds_(TV_series)" target="_blank">
+             Learn more on Wikipedia
+          </a>
+    </div>
+
+    <br>
+        
+    <div class="watchTW">
+        <a href="https://www.amazon.com/gp/video/detail/B08NMBSVGK/ref=atv_hm_hom_3_c_dVClNC_2_2" target="_blank">
+        <button>Watch The Wilds on Prime Video</button>
+        </a>
+    </div>
+
+    <br>
+
+    <div class="emailMe">
+
+        <button>
+
+          Want to be emailed when season 2 comes out?
+
+        </button>
+
+    </div>
+    
+
+    <div class="thisPage">
+        This page was built by 
+
+        <a href="https://www.linkedin.com/in/krystal-hortizuela-ab634b164/" target="_blank">
+            Krystal Hortizuela
+        </a> 
+
+    </div>
+
+    <div class="info">
+         <span class="email"> 
+            Email:
+             <span class="useremail"> krystalhortizuela@gmail.com</span>
+          </span>
+         <span class="instagram"> 
+           Instagram: 
+           <span class="username"> 
+               <a href="https://www.instagram.com/_jingaling13_/" target="_blank">
+               @_jingaling13_
+               </a>
+             </span>
+         </span>
+        </div>
+
+
+    <script>
+
+        function addEmail() {
+
+            let name = prompt("What is your name?");
+            let age = prompt ("How old are you?")
+
+            if (age >=16) {
+
+                 let emailAddress = prompt("Please enter your email address:")
+
+                 alert ("Thanks, " + name + "! We will let you know when season 2 premieres!")
+
+            } else {
+
+                alert ("Sorry, " + name + ", you are not old enough to watch The Wilds on Amazon Prime Video.")
+
+            }
+            
+        }
+
+         let emailButton = document.querySelector(".emailMe");
+        emailButton.addEventListener("click", addEmail);
+
+    </script>
+
+
+</body>
+</html>
